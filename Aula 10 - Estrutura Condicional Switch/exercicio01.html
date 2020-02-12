@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Estrutura Condicional Switch</title>
+		<meta charset="utf-8" />
+		<style>
+			h2{
+				font: 15pt Arial;
+				color: #171559;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+
+	<body>
+	<div>	
+		<h2>Ler um numero e qual operação realizar, dobro, cubo ou raiz quadrada</h2>
+		<form method="get" action="exercicio01.php">
+			Numero: <input type="number" name="num"/><br/>
+			<fieldset><legend>Operação</legend>
+				<input type="radio" name="oper" id="dobro" value="1" checked/>
+				<label for="dobro">Dobro</label>
+				<input type="radio" name="oper" id="cubo" value="2"/>
+				<label for="cubo">Cubo</label>
+				<input type="radio" name="oper" id="raiz" value="3"/>
+				<label for="raiz">Raiz Quadrada</label>
+			</fieldset>
+			<input type="submit" value="Calcular"/>
+		</form>
+	</div>	
+	</body>
+
+</html>
