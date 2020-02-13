@@ -17,7 +17,7 @@
 	<div>
 		<?php
 			echo "<h2>Criar dinamicamente 5 caixas de texto em um formulário</h2>";
-			
+			//este primeiro pega os dados da url
 			$i = 1;
 			while($i <= 5){
 				$v = "num". $i;
@@ -28,6 +28,7 @@
 			
 			//echo "$num1 $num2 $num3 $num4 $num5"
 
+			//este segundo printa os dados
 			$i=1;
 			while($i<=5){
 				$v="num".$i;
