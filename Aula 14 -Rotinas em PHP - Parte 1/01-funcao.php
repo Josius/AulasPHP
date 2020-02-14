@@ -21,10 +21,14 @@
 			function soma($a, $b){
 				$s = $a+$b;
 				
-				echo "<p>A soma vale $s</p>";
+				echo "<h3>A soma vale $s</h3>";
 			}
 			
 			soma(3,4);
+			soma(8,2);
+			$x=9;
+			$y=15;
+			soma($x,$y);
 			
 		?>
 		
