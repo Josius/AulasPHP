@@ -15,16 +15,14 @@
 
 	<body>
 	<div>
-		<pre>
+		<pre> <!--PRÉ FORMATAÇÃO PARA VISUALIZAR MELHOR OS VETORES-->
 		<?php
-			echo "<h2>Exibir Vetor</h2>";
-			
-			$v = array("A", "J", "M", "X", "K");
-			$tot = count($v);
-			echo "O vetor tem $tot elementos</br>";
+			echo "<h2>Exibindo vetor</h2>";
+			//print_r() server para printar qlqr obj que seja uma coleção, objs, vetores, matrizes, etc..
+			//var_dump mostra a qtd de itens e o tipo de cada item no array 
+			$v = array("A","J","M","X","K8","ff", 8, 8.9, true, false);
 			print_r($v);
 			var_dump($v);
-			
 		?>
 		</pre>
 		</br></br><input type="submit" value="voltar" onclick="location.href='javascript:history.go(-1)'"/>
